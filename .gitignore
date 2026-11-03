@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# --- 데이터 파일 ---
+# A5-1 과 같은 finance_data.csv 를 data_gen.py 로 다시 만든다 (A5-1 과 같은 규칙).
+*.csv
+
+# --- 로컬 전용 (원격과 동일하게 가므로 애초에 커밋하지 않는다) ---
+HANDOFF.md
+plans/
